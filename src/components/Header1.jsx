@@ -14,7 +14,8 @@ const Header1 = () => {
   ];
 
   return (
-    <header className="fixed top-0 left-0 w-full bg-gradient-to-r from-blue-500 via-blue-700 to-blue-900 shadow-md z-50">
+<header className="fixed top-0 left-0 w-full bg-gradient-to-r from-white via-red-100 via-green-100 via-blue-100 to-white shadow-md z-50">
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20 sm:h-24">
           {/* Logo Section */}
