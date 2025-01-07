@@ -24,7 +24,7 @@ const Header1 = () => {
               alt="Buzzbiz Logo" 
               className="h-12 w-auto sm:h-16 md:h-20 mr-3 sm:mr-4 transition-all duration-200" // Increased logo size
             />
-            <span className="text-gray-900 text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold tracking-tight transition-all duration-200">
+            <span className="text-gray-900 text-xl sm:text-xl md:text-2xl lg:text-3xl font-bold tracking-tight transition-all duration-200">
               IKD Marketing
             </span>
           </div>
