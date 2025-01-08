@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  Search,
-  Lightbulb,
-  Target,
-  TrendingUp,
-} from "lucide-react";
+import { Search, Lightbulb, Target, TrendingUp } from "lucide-react";
 
 const HowWeWork = () => {
   const steps = [
@@ -46,10 +41,13 @@ const HowWeWork = () => {
     <div className="bg-gradient-to-br from-gray-50 to-gray-100 min-h-screen py-16 px-4">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-8">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 bg-gradient-to-r from-blue-600 to-purple-600 text-transparent bg-clip-text">
-            How We Work
+            How Do We Work?
           </h2>
+          <p className="text-gray-600 text-lg md:text-xl mt-4">
+            We follow a systematic approach to ensure that every project is executed to perfection.
+          </p>
         </div>
 
         {/* Timeline */}
@@ -63,9 +61,7 @@ const HowWeWork = () => {
               <div
                 key={step.id}
                 className={`flex ${
-                  step.position === "left"
-                    ? "justify-start"
-                    : "justify-end"
+                  step.position === "left" ? "justify-start" : "justify-end"
                 } items-center`}
               >
                 {/* Content Container */}
@@ -77,9 +73,7 @@ const HowWeWork = () => {
                   {/* Step Number */}
                   <div
                     className={`absolute top-0 ${
-                      step.position === "left"
-                        ? "-right-16"
-                        : "-left-16"
+                      step.position === "left" ? "-right-16" : "-left-16"
                     } bg-gradient-to-r from-purple-600 to-blue-600 text-white w-14 h-14 rounded-full shadow-lg flex items-center justify-center font-bold text-xl transform -translate-y-1/2`}
                   >
                     {step.id}
@@ -103,13 +97,9 @@ const HowWeWork = () => {
                   {/* Connector */}
                   <div
                     className={`absolute top-1/2 ${
-                      step.position === "left"
-                        ? "right-0"
-                        : "left-0"
+                      step.position === "left" ? "right-0" : "left-0"
                     } w-16 h-1 bg-gradient-to-r from-purple-600 to-blue-600 transform -translate-y-1/2 ${
-                      step.position === "left"
-                        ? "translate-x-full"
-                        : "-translate-x-full"
+                      step.position === "left" ? "translate-x-full" : "-translate-x-full"
                     }`}
                   />
                 </div>
