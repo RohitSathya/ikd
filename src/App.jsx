@@ -28,7 +28,7 @@ const App = () => {
     <Router>
   
       {/* Header */}
-      <Header1 />
+   
 
       {/* Routes for Navigation */}
       <Routes>
