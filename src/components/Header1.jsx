@@ -41,7 +41,7 @@ const Header1 = () => {
               onClick={() => navigate('/')}
               className="h-13 w-auto sm:h-17 md:h-21 mr-4 sm:mr-5 transition-all duration-200 cursor-pointer"
             />
-           
+          
           </div>
 
           {/* Desktop Navigation */}
@@ -50,7 +50,7 @@ const Header1 = () => {
               <div
                 key={item.label}
                 onClick={() => handleMenuClick(item)}
-                className={text-gray-600 hover:text-[#0d6efd] transition-colors duration-200 font-medium text-lg cursor-pointer}
+                className={`text-gray-600 hover:text-[#0d6efd] transition-colors duration-200 font-medium text-lg cursor-pointer`}
               >
                 {item.label === 'Homepage' ? (
                   // Navigate to "/" for Homepage
