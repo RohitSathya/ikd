@@ -28,11 +28,10 @@ const TeamSlider = () => {
         {/* Header Section */}
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-violet-600 bg-clip-text text-transparent mb-4">
-            Meet Our Expert Team
+            The Marketing Minds
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Our diverse team of digital marketing specialists brings together years of experience 
-            and expertise to deliver exceptional results for your business.
+           Our team of creative and strategic thinkers is dedicated to driving your brand’s success. With deep expertise in digital marketing, we craft customized strategies that deliver measurable results.
           </p>
         </div>
 
