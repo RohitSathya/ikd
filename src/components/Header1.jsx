@@ -21,8 +21,10 @@ const Header1 = () => {
 
   const handleMenuClick = (item) => {
     if (item.label === 'Homepage') {
+      // Navigate to the root route
       navigate('/');
     } else {
+      // Close the mobile menu when navigating
       setIsMenuOpen(false);
     }
   };
@@ -37,8 +39,9 @@ const Header1 = () => {
               src={logo}
               alt="Buzzbiz Logo"
               onClick={() => navigate('/')}
-              className="h-16 w-auto sm:h-20 md:h-24 lg:h-28 transition-all duration-200 cursor-pointer"
+              className="h-13 w-auto sm:h-17 md:h-21 mr-4 sm:mr-5 transition-all duration-200 cursor-pointer"
             />
+           
           </div>
 
           {/* Desktop Navigation */}
@@ -47,11 +50,13 @@ const Header1 = () => {
               <div
                 key={item.label}
                 onClick={() => handleMenuClick(item)}
-                className={`text-gray-600 hover:text-[#0d6efd] transition-colors duration-200 font-medium text-lg cursor-pointer`}
+                className={text-gray-600 hover:text-[#0d6efd] transition-colors duration-200 font-medium text-lg cursor-pointer}
               >
                 {item.label === 'Homepage' ? (
+                  // Navigate to "/" for Homepage
                   <span>{item.label}</span>
                 ) : (
+                  // Scroll for other items
                   <Link
                     to={item.to}
                     smooth={true}
@@ -92,8 +97,10 @@ const Header1 = () => {
                   className="block px-4 py-3 text-gray-600 hover:text-[#0d6efd] transition-colors duration-200 font-medium text-lg cursor-pointer"
                 >
                   {item.label === 'Homepage' ? (
+                    // Navigate to "/" for Homepage
                     <span>{item.label}</span>
                   ) : (
+                    // Scroll for other items
                     <Link
                       to={item.to}
                       smooth={true}
