@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Menu as MenuIcon } from 'lucide-react';
 import { Link } from 'react-scroll';
-import logo from '../images/ikd.jpg';
 import { useNavigate } from 'react-router-dom';
 
 const Header1 = () => {
@@ -21,10 +20,8 @@ const Header1 = () => {
 
   const handleMenuClick = (item) => {
     if (item.label === 'Homepage') {
-      // Navigate to the root route
       navigate('/');
     } else {
-      // Close the mobile menu when navigating
       setIsMenuOpen(false);
     }
   };
@@ -34,35 +31,27 @@ const Header1 = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20 sm:h-24">
           {/* Logo Section */}
-          <div className="flex-shrink-0 flex items-center">
-           <img
-  src='https://i.postimg.cc/L87Zm2xB/ikd-2-removebg-preview.png'
-  alt="Buzzbiz Logo"
-  onClick={() => navigate('/')}
-  className="h-16 sm:h-20 md:h-24 lg:h-[6rem] w-auto mr-3 sm:mr-4 transition-all duration-200 cursor-pointer"
-/>
-           
+          <div className="flex-shrink-0">
+            <img
+              src="https://i.postimg.cc/L87Zm2xB/ikd-2-removebg-preview.png"
+              alt="Buzzbiz Logo"
+              onClick={() => navigate('/')}
+              className="h-12 sm:h-16 md:h-20 lg:h-24 w-auto cursor-pointer transition-transform duration-200"
+            />
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex space-x-6 lg:space-x-8">
+          <nav className="hidden md:flex space-x-4 lg:space-x-6">
             {menuItems.map((item) => (
               <div
                 key={item.label}
                 onClick={() => handleMenuClick(item)}
-                className={`text-gray-600 hover:text-[#0d6efd] transition-colors duration-200 font-medium text-lg cursor-pointer`}
+                className="text-gray-600 hover:text-[#0d6efd] transition-colors duration-200 font-medium text-base lg:text-lg cursor-pointer"
               >
                 {item.label === 'Homepage' ? (
-                  // Navigate to "/" for Homepage
                   <span>{item.label}</span>
                 ) : (
-                  // Scroll for other items
-                  <Link
-                    to={item.to}
-                    smooth={true}
-                    duration={500}
-                    offset={-96}
-                  >
+                  <Link to={item.to} smooth={true} duration={500} offset={-96}>
                     {item.label}
                   </Link>
                 )}
@@ -89,18 +78,16 @@ const Header1 = () => {
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <div className="md:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-2">
+            <div className="px-4 pt-4 pb-3 space-y-3">
               {menuItems.map((item) => (
                 <div
                   key={item.label}
                   onClick={() => handleMenuClick(item)}
-                  className="block px-4 py-3 text-gray-600 hover:text-[#0d6efd] transition-colors duration-200 font-medium text-lg cursor-pointer"
+                  className="block px-4 py-2 text-gray-600 hover:text-[#0d6efd] transition-colors duration-200 font-medium text-base cursor-pointer"
                 >
                   {item.label === 'Homepage' ? (
-                    // Navigate to "/" for Homepage
                     <span>{item.label}</span>
                   ) : (
-                    // Scroll for other items
                     <Link
                       to={item.to}
                       smooth={true}
@@ -113,7 +100,9 @@ const Header1 = () => {
                   )}
                 </div>
               ))}
-              <button className={buttonStyles}>GET STARTED</button>
+              <div className="px-4">
+                <button className={`${buttonStyles} w-full`}>GET STARTED</button>
+              </div>
             </div>
           </div>
         )}
