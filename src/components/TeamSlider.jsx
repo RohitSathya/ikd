@@ -87,57 +87,61 @@ const TeamSlider = () => {
               const member = teamMembers[index];
               return (
                 <Card 
-                  key={index}
-                  className={`transform transition-all duration-500 ${
-                    offset === 0 
-                      ? 'scale-100 opacity-100 z-20' 
-                      : 'scale-90 opacity-60 z-10'
-                  } bg-white/80 backdrop-blur-sm shadow-xl w-full max-w-sm`}
-                >
-                  <CardContent className="p-6">
-                    <div className="relative mb-6">
-                      <img 
-                        src={member.image} 
-                        alt={member.name}
-                        className="w-full h-64 object-cover rounded-lg"
-                      />
-                      <div className="absolute -bottom-6 left-1/2 transform -translate-x-1/2">
-                        <div className="bg-blue-600 p-3 rounded-full shadow-lg">
-                          {member.icon}
-                        </div>
-                      </div>
-                    </div>
+  key={index}
+  className={`transform transition-all duration-500 ${
+    offset === 0 
+      ? 'scale-100 opacity-100 z-20' 
+      : 'scale-90 opacity-60 z-10'
+  } bg-white/80 backdrop-blur-sm shadow-xl w-full max-w-sm`}
+>
+  <CardContent className="p-6">
+    <div className="relative flex flex-col items-center mb-6">
+      {/* Rounded Image */}
+      <img 
+        src={member.image} 
+        alt={member.name}
+        className="w-40 h-40 object-cover rounded-full shadow-lg border-4 border-blue-600"
+      />
+      <div className="absolute -bottom-6">
+        <div className="bg-blue-600 p-3 rounded-full shadow-lg">
+          {member.icon}
+        </div>
+      </div>
+    </div>
 
-                    <div className="text-center mt-8">
-                      <h3 className="text-2xl font-bold text-gray-800 mb-2">{member.name}</h3>
-                      <p className="text-blue-600 font-medium mb-4">{member.position}</p>
-                      <p className="text-gray-600 mb-6">{member.bio}</p>
+    {/* Member Details */}
+    <div className="text-center mt-8">
+      <h3 className="text-2xl font-bold text-gray-800 mb-2">{member.name}</h3>
+      <p className="text-blue-600 font-medium mb-4">{member.position}</p>
+      <p className="text-gray-600 mb-6">{member.bio}</p>
 
-                      <div className="space-y-3">
-                        {member.expertise.map((skill, idx) => (
-                          <span 
-                            key={idx}
-                            className="inline-block px-4 py-1 m-1 bg-blue-50 text-blue-600 rounded-full text-sm"
-                          >
-                            {skill}
-                          </span>
-                        ))}
-                      </div>
+      <div className="space-y-3">
+        {member.expertise.map((skill, idx) => (
+          <span 
+            key={idx}
+            className="inline-block px-4 py-1 m-1 bg-blue-50 text-blue-600 rounded-full text-sm"
+          >
+            {skill}
+          </span>
+        ))}
+      </div>
 
-                      <div className="flex justify-center space-x-4 mt-6">
-                        <button className="p-2 text-gray-600 hover:text-blue-600 transition-colors">
-                          <Linkedin className="w-5 h-5" />
-                        </button>
-                        <button className="p-2 text-gray-600 hover:text-blue-600 transition-colors">
-                          <Twitter className="w-5 h-5" />
-                        </button>
-                        <button className="p-2 text-gray-600 hover:text-blue-600 transition-colors">
-                          <Mail className="w-5 h-5" />
-                        </button>
-                      </div>
-                    </div>
-                  </CardContent>
-                </Card>
+      {/* Social Icons */}
+      <div className="flex justify-center space-x-4 mt-6">
+        <button className="p-2 text-gray-600 hover:text-blue-600 transition-colors">
+          <Linkedin className="w-5 h-5" />
+        </button>
+        <button className="p-2 text-gray-600 hover:text-blue-600 transition-colors">
+          <Twitter className="w-5 h-5" />
+        </button>
+        <button className="p-2 text-gray-600 hover:text-blue-600 transition-colors">
+          <Mail className="w-5 h-5" />
+        </button>
+      </div>
+    </div>
+  </CardContent>
+</Card>
+
               );
             })}
 
