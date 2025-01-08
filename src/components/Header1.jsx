@@ -35,12 +35,12 @@ const Header1 = () => {
         <div className="flex justify-between items-center h-20 sm:h-24">
           {/* Logo Section */}
           <div className="flex-shrink-0 flex items-center">
-            <img
-              src='https://i.postimg.cc/L87Zm2xB/ikd-2-removebg-preview.png'
-              alt="Buzzbiz Logo"
-              onClick={() => navigate('/')}
-              className="h-12 w-auto sm:h-16 md:h-20 mr-3 sm:mr-4 transition-all duration-200 cursor-pointer"
-            />
+           <img
+  src='https://i.postimg.cc/L87Zm2xB/ikd-2-removebg-preview.png'
+  alt="Buzzbiz Logo"
+  onClick={() => navigate('/')}
+  className="h-16 sm:h-20 md:h-24 lg:h-[6rem] w-auto mr-3 sm:mr-4 transition-all duration-200 cursor-pointer"
+/>
            
           </div>
 
