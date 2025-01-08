@@ -118,20 +118,20 @@ const Hero = () => {
 
   const slides = [
     {
-      image: 'https://images.pexels.com/photos/6476588/pexels-photo-6476588.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1080&w=1920',
+      image: 'https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg?auto=compress&cs=tinysrgb&w=1920',
       title: 'INSPIRE',
-      subtitle: 'Inspiring Strategies'
+      subtitle: 'Inspiring Strategies',
     },
     {
-      image: 'https://images.pexels.com/photos/3183132/pexels-photo-3183132.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1080&w=1920',
+      image: 'https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=1920',
       title: 'KINDLE',
-      subtitle: 'Sparking Creativity'
+      subtitle: 'Sparking Creativity',
     },
     {
-      image: 'https://images.pexels.com/photos/4158/apple-iphone-smartphone-desk.jpg?auto=compress&cs=tinysrgb&dpr=2&h=1080&w=1920',
+      image: 'https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg?auto=compress&cs=tinysrgb&w=1920',
       title: 'DELIVER',
-      subtitle: 'Delivering Results'
-    }
+      subtitle: 'Delivering Results',
+    },
   ];
 
   useEffect(() => {
@@ -173,7 +173,7 @@ const Hero = () => {
               <h1 className="text-5xl md:text-7xl font-extrabold text-white">
                 {slide.title}
               </h1>
-              <p className="text-lg md:text-2xl text-gray-300">
+              <p className="text-lg md:text-3xl text-white">
                 {slide.subtitle}
               </p>
               <div className="flex flex-col sm:flex-row justify-center gap-4 mt-8">
