@@ -7,29 +7,54 @@ const FAQ = () => {
 
   const faqs = [
     {
-      question: "What is digital marketing?",
-      answer: "Digital marketing refers to the use of digital channels, such as search engines, social media, email, and websites, to promote products and services to potential customers. It's a modern approach to connecting with your target audience in the digital age.",
-      category: "Basics"
+      question: "How does SEO (Search Engine Optimization) help my business?",
+      answer: "SEO improves your website’s visibility on search engines, making it easier for potential customers to find you. By optimizing your website’s content, structure, and technical aspects, SEO helps drive organic traffic, improve user experience, and boost your search engine rankings.",
+      category: "SEO"
     },
     {
-      question: "How can digital marketing benefit my business?",
-      answer: "Digital marketing allows you to reach a global audience, target specific demographics, track campaign performance in real-time, and achieve measurable results. It provides cost-effective solutions and higher ROI compared to traditional marketing methods.",
+      question: "Why should I invest in Digital Marketing services?",
+      answer: "Investing in digital marketing helps you reach a larger, more targeted audience and achieve measurable results. It’s cost-effective compared to traditional marketing methods and allows you to track and optimize your campaigns to improve performance.",
       category: "Benefits"
     },
     {
-      question: "What are the key components of a digital marketing strategy?",
-      answer: "Key components include SEO (Search Engine Optimization), content marketing, social media marketing, pay-per-click advertising, email marketing, and analytics. Each component plays a crucial role in creating a comprehensive digital presence.",
-      category: "Strategy"
+      question: "How long does it take to see results from SEO?",
+      answer: "SEO is a long-term strategy, and results can take anywhere from 3 to 6 months to become noticeable. Factors such as competition, website age, and the effectiveness of optimization techniques can impact the time it takes to see significant changes.",
+      category: "SEO Timeline"
     },
     {
-      question: "How long does it take to see results from digital marketing?",
-      answer: "The time frame varies depending on the strategy. SEO typically takes 3-6 months for significant results, while PPC campaigns can deliver results within days or even hours. Content marketing usually shows steady growth over 6-12 months.",
-      category: "Timeline"
+      question: "Can PPC be effective for small businesses?",
+      answer: "Yes, PPC is a highly effective method for small businesses to drive immediate traffic and leads. By targeting specific keywords and demographics, PPC allows small businesses to compete with larger companies, while keeping the costs within a set budget.",
+      category: "PPC"
     },
     {
-      question: "How do I choose the right digital marketing agency?",
-      answer: "Look for an agency with a proven track record, expertise in your industry, transparent pricing, and a customized approach tailored to your business goals. Check their portfolio, client testimonials, and case studies to make an informed decision.",
-      category: "Partnership"
+      question: "How does Social Media Marketing (SMM) benefit my business?",
+      answer: "SMM helps you promote your business on social media platforms by creating and sharing content that resonates with your audience. It boosts brand awareness, fosters customer relationships, and drives traffic to your website, ultimately leading to higher conversions.",
+      category: "SMM"
+    },
+    {
+      question: "What role does content play in digital marketing?",
+      answer: "Content is a crucial element of digital marketing. It educates, informs, and engages your target audience. Quality content, including blogs, videos, and infographics, helps build trust with your audience, increases website traffic, and supports SEO efforts.",
+      category: "Content"
+    },
+    {
+      question: "How does Online Reputation Management (ORM) work?",
+      answer: "ORM involves actively managing your brand's online image by monitoring reviews, mentions, and comments across platforms. By addressing negative feedback and promoting positive content, ORM helps shape your brand’s reputation and foster customer loyalty.",
+      category: "ORM"
+    },
+    {
+      question: "What is the importance of Keyword Research in SEO?",
+      answer: "Keyword research is the foundation of SEO. By identifying the keywords your target audience is searching for, you can create content that matches their needs and search intent. This helps your website rank higher in search engine results, driving more organic traffic.",
+      category: "SEO Basics"
+    },
+    {
+      question: "What types of content do you create for Content Marketing?",
+      answer: "We create a variety of content, including blog posts, articles, case studies, infographics, videos, and social media content. Our goal is to produce high-quality, engaging content that attracts your target audience, drives traffic, and helps convert leads into customers.",
+      category: "Content"
+    },
+    {
+      question: "Which social media platforms should my business focus on?",
+      answer: "The ideal platforms depend on your business goals and target audience. We analyze your brand’s niche and customer demographics to recommend the most effective social media platforms for your marketing efforts—whether it’s Facebook, Instagram, LinkedIn, Twitter, or others.",
+      category: "Social Media"
     }
   ];
 
