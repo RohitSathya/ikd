@@ -39,9 +39,11 @@ const Header1 = () => {
               src={logo}
               alt="Buzzbiz Logo"
               onClick={() => navigate('/')}
-              className="h-13 w-auto sm:h-17 md:h-21 mr-4 sm:mr-5 transition-all duration-200 cursor-pointer"
+              className="h-12 w-auto sm:h-16 md:h-20 mr-3 sm:mr-4 transition-all duration-200 cursor-pointer"
             />
-          
+            <span className="text-gray-900 text-xl sm:text-xl md:text-2xl lg:text-3xl font-bold tracking-tight transition-all duration-200">
+              IKD Marketing
+            </span>
           </div>
 
           {/* Desktop Navigation */}
