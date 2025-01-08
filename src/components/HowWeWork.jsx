@@ -109,11 +109,7 @@ const HowWeWork = () => {
         </div>
 
         {/* CTA Button */}
-        <div className="text-center mt-20">
-          <button className="bg-gradient-to-r from-purple-600 to-blue-600 text-white px-8 md:px-12 py-4 rounded-full font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300">
-            Start Your Journey
-          </button>
-        </div>
+       
       </div>
     </div>
   );
