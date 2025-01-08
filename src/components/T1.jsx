@@ -30,14 +30,7 @@ const T1 = () => {
           </h1>
 
           {/* Subheading */}
-          <h2 className="text-3xl font-bold text-gray-800">
-            Now is the perfect time to connect with people on social media.
-          </h2>
-
-          {/* Tagline */}
-          <p className="text-2xl font-semibold text-blue-600">
-            Unlock new opportunities & connections that matter.
-          </p>
+         
 
           {/* Main Description */}
           <p className="text-gray-700 text-lg leading-relaxed">
