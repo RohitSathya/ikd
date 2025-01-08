@@ -80,12 +80,7 @@ const TeamSlider = () => {
                     <button className="p-2 text-gray-600 hover:text-blue-600 transition-colors">
                       <Linkedin className="w-5 h-5" />
                     </button>
-                    <button className="p-2 text-gray-600 hover:text-blue-600 transition-colors">
-                      <Twitter className="w-5 h-5" />
-                    </button>
-                    <button className="p-2 text-gray-600 hover:text-blue-600 transition-colors">
-                      <Mail className="w-5 h-5" />
-                    </button>
+                   
                   </div>
                 </div>
               </CardContent>
