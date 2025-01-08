@@ -23,7 +23,6 @@ import Footer2 from "./components/Footer2";
 import IndustryPage from "./IndustryPage";
 // Add a NotFoundPage component
 
-import ScrollToTop from './ScrollToTop'
 const App = () => {
   return (
     <Router>
