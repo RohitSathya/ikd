@@ -34,71 +34,42 @@ const HowWeWork = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-100 py-16 px-4">
-      {/* Header Section with Hexagonal Design */}
-      <div className="relative max-w-7xl mx-auto mb-20">
-        <div className="relative">
-          <div className="absolute inset-0 flex items-center justify-center">
-            <div className="h-24 w-80 bg-blue-600 transform rotate-0 skew-x-12 -skew-y-6"></div>
-          </div>
-          <h1 className="relative text-4xl font-bold text-center text-white py-6">
-            How We Work
-          </h1>
-        </div>
-      </div>
-
-      {/* Steps Section */}
+   <div className="bg-gray-100 py-16 px-4">
       <div className="max-w-7xl mx-auto">
-        <div className="relative">
-          {/* Vertical Line */}
-          <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-purple-600"></div>
-
-          {/* Steps Container */}
-          <div className="space-y-20">
-            {steps.map((step, index) => (
-              <div key={step.id} className="relative">
-                {/* Connector Line */}
-                {index < steps.length - 1 && (
-                  <div className="absolute left-1/2 transform -translate-x-1/2 h-20 w-0.5 bg-purple-600" 
-                       style={{ top: "100%" }}></div>
-                )}
-
-                {/* Step Card */}
-                <div className={`flex ${index % 2 === 0 ? "justify-start" : "justify-end"}`}>
-                  <div className="w-full md:w-5/12 bg-white rounded-lg shadow-xl p-6 relative">
-                    {/* Step Number */}
-                    <div className="absolute -top-6 left-0 bg-purple-600 text-white px-6 py-2 rounded-tr-2xl rounded-bl-2xl font-bold">
-                      Step {step.id}
-                    </div>
-
-                    {/* Content */}
-                    <div className="mt-6">
-                      <div className="flex items-center mb-4">
-                        <div className="p-3 bg-purple-100 rounded-full mr-4">
-                          {step.icon}
-                        </div>
-                        <h3 className="text-xl font-bold text-gray-800">{step.title}</h3>
-                      </div>
-                      <p className="text-gray-600 leading-relaxed">{step.description}</p>
-                    </div>
-
-                    {/* Connector Dot */}
-                    <div className="absolute top-1/2 transform -translate-y-1/2 w-4 h-4 bg-purple-600 rounded-full"
-                         style={{
-                           [index % 2 === 0 ? "right" : "left"]: "-2rem",
-                         }}></div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
+        {/* Header */}
+        <div className="text-center mb-12">
+          <h2 className="text-4xl font-bold text-gray-800 mb-4">
+            How We Work
+          </h2>
+          <p className="text-lg text-gray-600">
+            We follow a structured approach to ensure exceptional results for
+            every project.
+          </p>
         </div>
 
-        {/* CTA Button */}
-        <div className="text-center mt-16">
-          <button className="bg-purple-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-purple-700 transition-colors duration-300">
-            Get Started Now
-          </button>
+        {/* Steps */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {steps.map((step) => (
+            <div
+              key={step.id}
+              className="bg-white shadow-lg rounded-lg p-6 text-center transform hover:scale-105 transition-transform duration-300"
+            >
+              {/* Step Icon */}
+              <div className="flex items-center justify-center w-16 h-16 mx-auto bg-gradient-to-r from-purple-600 to-blue-600 rounded-full text-white mb-6">
+                {step.icon}
+              </div>
+              {/* Step Number */}
+              <div className="text-lg font-bold text-purple-600 mb-2">
+                Step {step.id}
+              </div>
+              {/* Title */}
+              <h3 className="text-xl font-semibold text-gray-800 mb-4">
+                {step.title}
+              </h3>
+              {/* Description */}
+              <p className="text-gray-600 text-sm">{step.description}</p>
+            </div>
+          ))}
         </div>
       </div>
     </div>
