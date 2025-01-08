@@ -1,38 +1,40 @@
 import React from 'react';
-import { LayoutGrid, Newspaper, Laptop, Database, MessageSquare, Rocket } from 'lucide-react';
+import { Search, Share, DollarSign, FileText, Users, ShieldCheck } from 'lucide-react';
 
 const OurServices = () => {
   const services = [
     {
-      icon: <LayoutGrid className="w-8 h-8 text-blue-600" />,
-      title: 'Social Media Management',
-      description: 'Enhance your online presence with tailored social media strategies that drive engagement and results.'
+      icon: <Search className="w-8 h-8 text-blue-600" />,
+      title: 'SMO',
+      description: 'We are experts in Social Media Optimization (SMO), delivering engaging content that resonates with your followers. Our strategies increase shares, likes, and interactions, leading to a broader reach and more engaged social media users, helping your brand achieve significant growth.',
     },
     {
-      icon: <Newspaper className="w-8 h-8 text-blue-600" />,
-      title: 'Paid Promote',
-      description: 'Leverage paid promotions to reach your target audience and maximize your marketing ROI.'
+      icon: <Share className="w-8 h-8 text-blue-600" />,
+      title: 'SEO',
+      description: 'Our digital marketing agency specializes in SEO, using innovative techniques to skyrocket your website’s Google rankings. By identifying the best keywords for your niche, we drive targeted, organic traffic to your site, boosting visibility and ensuring your brand stands out. Let us help you achieve long-term SEO success.',
     },
     {
-      icon: <Laptop className="w-8 h-8 text-blue-600" />,
-      title: 'Digital Marketing',
-      description: 'Empower your brand with cutting-edge digital marketing techniques that deliver measurable success.'
+      icon: <DollarSign className="w-8 h-8 text-blue-600" />,
+      title: 'PPC',
+      description: 'PPC advertising is one of the fastest ways to generate traffic and leads. we focus on maximizing your ad spend and ensuring the best possible ROI, driving qualified traffic and boosting conversions on platforms like Facebook Ads and Google Ads.',
     },
     {
-      icon: <Database className="w-8 h-8 text-blue-600" />,
-      title: 'Data Driven',
-      description: 'Utilize data-driven insights to make informed decisions and optimize your marketing efforts.'
+      icon: <Users className="w-8 h-8 text-blue-600" />,
+      title: 'SMM',
+      description: 'Our SMM services focus on crafting engaging content that resonates with your audience. As the Best Social Media Agency in Delhi, we help you grow your brand’s online presence by driving targeted engagement and boosting visibility across social media platforms like Facebook, Instagram, and LinkedIn for maximum results.',
     },
     {
-      icon: <MessageSquare className="w-8 h-8 text-blue-600" />,
-      title: 'Strategic Consulting',
-      description: 'Get expert guidance to align your business strategies with market trends and opportunities.'
+      icon: <ShieldCheck className="w-8 h-8 text-blue-600" />,
+      title: 'ORM',
+      description: 'Our ORM (Online Reputation Management) services help protect and enhance your brand’s online image. As a leading digital marketing agency in Delhi, we monitor reviews, address negative feedback, and promote positive interactions, ensuring your brand maintains a trustworthy and credible reputation across digital platforms, driving consumer trust and loyalty.',
     },
     {
-      icon: <Rocket className="w-8 h-8 text-blue-600" />,
-      title: 'Creative Development',
-      description: 'Unleash your creativity with innovative development solutions tailored to your brand needs.'
-    }
+      icon: <FileText className="w-8 h-8 text-blue-600" />,
+      title: 'Content Marketing',
+      description: 'Our content marketing services focus on creating high-quality, engaging content that resonates with your audience. As a digital marketing agency in Delhi, we craft compelling blogs, videos, and infographics that build brand authority, drive organic traffic, and enhance engagement, ensuring your brand stands out in the digital space.',
+    },
+    
+    
   ];
 
   return (
@@ -43,7 +45,7 @@ const OurServices = () => {
           Our Services
         </span>
         <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight">
-          Empower Your Marketing Strategy<br />with the Right Solutions
+          Elevate Your Digital Marketing Strategy<br />with Expert Solutions
         </h2>
       </div>
 
