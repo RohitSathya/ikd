@@ -56,7 +56,7 @@ const StartNow = () => {
           </h1>
 
           <p className="text-xl sm:text-2xl text-gray-200 mb-10 max-w-3xl mx-auto">
-            Unlock your potential with our advanced solutions. Elevate your success to new heights with seamless performance.
+            Grow your brand with our effective strategies. We help you reach your goals, no matter the challenge.
           </p>
 
           <motion.button
