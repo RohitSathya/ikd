@@ -1,24 +1,24 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 const T3 = () => {
   const images = [
     {
       src: "https://images.pexels.com/photos/5816298/pexels-photo-5816298.jpeg?auto=compress&cs=tinysrgb&w=1920",
       alt: "People enjoying social media",
-      title: "Unlock endless possibilities with social media strategies.",
-      description: "Discover innovative ways to expand your reach, engage your audience, and elevate your brand. Harness the power of social media to drive growth and success.",
+      title: "Unlock endless possibilities with our expert social media marketing services.",
+      description: "Discover innovative ways to expand your reach, engage your audience, and elevate your brand with our expert social media marketing services. Harness the power of social media to drive growth and success by implementing tailored strategies that connect you with your target market and create lasting impressions.",
     },
     {
       src: "https://images.pexels.com/photos/95916/pexels-photo-95916.jpeg?auto=compress&cs=tinysrgb&w=1920",
       alt: "Collaboration on social platforms",
       title: "Empower your team with collaboration tools.",
-      description: "Leverage social media collaboration tools to streamline workflows, improve efficiency, and drive impactful outcomes.",
+      description: "Leverage powerful social media collaboration tools to streamline workflows, improve efficiency, and drive impactful outcomes for your business.",
     },
     {
       src: "https://images.pexels.com/photos/4158/apple-iphone-smartphone-desk.jpg?auto=compress&cs=tinysrgb&w=1920",
       alt: "Engaging with a vibrant audience",
       title: "Connect with a vibrant and engaged audience.",
-      description: "Build meaningful relationships and grow your community by connecting with an engaged audience through social media.",
+      description: "Build meaningful relationships and grow your community by connecting with an engaged audience through tailored social media strategies.",
     },
   ];
 
