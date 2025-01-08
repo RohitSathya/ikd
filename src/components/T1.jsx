@@ -24,76 +24,45 @@ const T1 = () => {
 
         {/* Right Side - About Us Content */}
         <div className="space-y-8">
-          {/* Heading */}
-          <h2 className="text-5xl md:text-6xl font-extrabold text-gray-900 leading-tight tracking-wide">
-            About Us
+          {/* Main Heading */}
+          <h1 className="text-6xl font-extrabold bg-gradient-to-r from-blue-600 to-purple-600 text-transparent bg-clip-text leading-tight">
+            Best Digital Marketing Agency in Delhi
+          </h1>
+
+          {/* Subheading */}
+          <h2 className="text-3xl font-bold text-gray-800">
+            Now is the perfect time to connect with people on social media.
           </h2>
 
-          {/* Description */}
-          <p className="text-gray-700 text-lg md:text-xl leading-relaxed">
-            At <span className="text-blue-600 font-bold">IKD Marketing</span>, we specialize in crafting powerful digital marketing solutions that elevate businesses to new heights. 
-            With over 15 years of experience, we are committed to helping our clients build meaningful connections, drive growth, and achieve exceptional results in the ever-evolving digital landscape.
+          {/* Tagline */}
+          <p className="text-2xl font-semibold text-blue-600">
+            Unlock new opportunities & connections that matter.
           </p>
 
-          {/* Mission Statement */}
+          {/* Main Description */}
+          <p className="text-gray-700 text-lg leading-relaxed">
+            In today's digital age, businesses need to establish a strong online presence to stay ahead of the competition. We are a group of dedicated and skilled experts who specialize in developing and implementing effective digital marketing strategies tailored to your company's requirements. Our specialized strategies have assisted businesses in a variety of industries in achieving their objectives, whether they are startups, small businesses, or established companies.
+          </p>
+
+          {/* Location Specific Content */}
           <div className="bg-gray-100 p-6 rounded-lg shadow-md">
-            <h3 className="text-2xl font-semibold text-gray-800">Our Mission</h3>
-            <p className="text-gray-700 mt-3 leading-relaxed">
-              To empower businesses by providing innovative strategies, data-driven insights, 
-              and creative solutions that spark inspiration and deliver measurable success.
+            <h3 className="text-2xl font-semibold text-gray-800 mb-3">Looking for a digital marketing agency near me?</h3>
+            <p className="text-gray-700 leading-relaxed">
+              We're right here in Delhi, offering end-to-end solutions, including SEO, PPC, content marketing, and social media management. As the <span className="font-bold text-blue-600">Best Social Media Agency in Delhi</span>, we specialize in building your online presence and connecting you with your audience.
             </p>
           </div>
 
-          {/* Bullet Points */}
-          <ul className="space-y-4 text-gray-700 text-lg">
-            <li className="flex items-center gap-3">
-              <span className="bg-blue-500 text-white p-2 rounded-full">
-                <svg
-                  className="h-6 w-6"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                </svg>
-              </span>
-              Custom digital marketing strategies for every client
-            </li>
-            <li className="flex items-center gap-3">
-              <span className="bg-green-500 text-white p-2 rounded-full">
-                <svg
-                  className="h-6 w-6"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                </svg>
-              </span>
-              Expertise in social media, SEO, and content marketing
-            </li>
-            <li className="flex items-center gap-3">
-              <span className="bg-purple-500 text-white p-2 rounded-full">
-                <svg
-                  className="h-6 w-6"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                </svg>
-              </span>
-              Proven track record of delivering measurable results
-            </li>
-          </ul>
+          {/* Final CTA */}
+          <div className="bg-gradient-to-r from-blue-50 to-purple-50 p-6 rounded-lg">
+            <p className="text-xl text-gray-800 font-semibold">
+              Your success is our success. Partner with us, and let us help you unlock the full potential of digital marketing to grow your business.
+            </p>
+          </div>
 
-          {/* Call to Action */}
+          {/* Call to Action Button */}
           <div className="pt-4">
             <button className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white px-10 py-4 rounded-lg shadow-lg hover:from-purple-600 hover:to-pink-600 transition-all duration-300 text-lg font-semibold">
-              LEARN MORE ABOUT US
+              CONNECT WITH US TODAY
             </button>
           </div>
         </div>
