@@ -45,7 +45,7 @@ const OurServices = () => {
           Our Services
         </span>
         <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight">
-          Empower Your Marketing Strategy with the Right Solutions
+          The Services We Provide in Digital Marketing
         </h2>
       </div>
 
