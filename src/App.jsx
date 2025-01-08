@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Element } from "react-scroll";
-
+import ScrollToTop from './ScrollToTop'
 // Importing Components
 import Header1 from "./components/Header1";
 import Hero from "./components/Hero";
@@ -22,10 +22,12 @@ import LatestBlog from "./components/LatestBlog";
 import Footer2 from "./components/Footer2";
 import IndustryPage from "./IndustryPage";
 // Add a NotFoundPage component
+
 import ScrollToTop from './ScrollToTop'
 const App = () => {
   return (
     <Router>
+      <ScrollToTop/>
   
       {/* Header */}
       <Header1/>
