@@ -25,7 +25,7 @@ const ConsultationForm = () => {
             Get Free Digital Marketing Consultation
           </CardTitle>
           <p className="text-gray-600 max-w-3xl mx-auto">
-            Transform your business with our award-winning digital marketing solutions. Let our experts create a customized strategy that drives results.
+            We'll help you plan the best digital strategy for your brand.
           </p>
         </CardHeader>
 
