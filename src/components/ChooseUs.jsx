@@ -80,7 +80,7 @@ const ChooseUs = () => {
           <div className="relative lg:absolute lg:right-0 lg:top-0 lg:bottom-0 lg:w-1/2">
             <div className="h-full relative">
               <img
-                src="https://web.moxcreative.com/buzzbiz/wp-content/uploads/sites/27/2023/04/img4_.png"
+                src="https://images.pexels.com/photos/3153198/pexels-photo-3153198.jpeg?auto=compress&cs=tinysrgb&w=1920"
                 alt="Professional digital marketing team"
                 className="h-full w-full object-cover object-center rounded-lg shadow-2xl hover:shadow-blue-500/50 transition-shadow duration-300"
               />
