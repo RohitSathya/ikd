@@ -26,7 +26,7 @@ import ScrollToTop from './ScrollToTop'
 const App = () => {
   return (
     <Router>
-      <ScrollToTop/>
+  
       {/* Header */}
       <Header1 />
 
