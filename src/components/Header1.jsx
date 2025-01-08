@@ -36,7 +36,7 @@ const Header1 = () => {
           {/* Logo Section */}
           <div className="flex-shrink-0 flex items-center">
             <img
-              src={logo}
+              src='https://i.postimg.cc/L87Zm2xB/ikd-2-removebg-preview.png'
               alt="Buzzbiz Logo"
               onClick={() => navigate('/')}
               className="h-12 w-auto sm:h-16 md:h-20 mr-3 sm:mr-4 transition-all duration-200 cursor-pointer"
