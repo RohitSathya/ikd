@@ -12,31 +12,31 @@ const HowWeWork = () => {
       id: "01",
       title: "Evaluate the Project",
       description:
-        "The first step in our process is understanding your business, objectives, and target audience. We perform a thorough analysis of your existing digital presence, market conditions, and competitors. This evaluation helps us identify your unique selling points and challenges, allowing us to craft a strategy tailored to your needs.",
+        "We begin with a comprehensive analysis of your business needs and goals, conducting detailed audits to identify key opportunities.",
       icon: <Search className="w-8 h-8" />,
       position: "left",
     },
     {
       id: "02",
-      title: "Discover Innovative Ideas",
+      title: "Discover Solutions",
       description:
-        "We analyze current trends, consumer behavior, and industry best practices to ensure we bring fresh, impactful strategies to the table. The goal is to devise a plan that resonates with your target audience and fosters engagement.",
+        "Our team develops innovative strategies tailored to your unique business requirements and target audience.",
       icon: <Lightbulb className="w-8 h-8" />,
       position: "right",
     },
     {
       id: "03",
-      title: "Start Optimization",
+      title: "Implementation",
       description:
-        "Once the strategy is in place, we begin the optimization process. Whether it's optimizing your website for SEO, launching targeted ad campaigns, or curating engaging social media content, we ensure every element is aligned with your goals. Continuous testing and optimization are key components of our approach to ensure we’re getting the best results from every digital channel.",
+        "We execute the planned strategies with precision, ensuring every detail aligns with your objectives.",
       icon: <TrendingUp className="w-8 h-8" />,
       position: "left",
     },
     {
       id: "04",
-      title: "Achieve Goals",
+      title: "Achieve Results",
       description:
-        "With all the pieces in place, we focus on achieving your business goals. By consistently monitoring and analyzing the performance of each campaign, we make data-driven adjustments that ensure your goals are not just met but exceeded. We believe in results that speak for themselves – more traffic, more leads, and ultimately, more conversions.",
+        "Monitor progress and optimize performance to deliver measurable results and sustainable growth.",
       icon: <Target className="w-8 h-8" />,
       position: "right",
     },
