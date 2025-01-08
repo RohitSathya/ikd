@@ -11,14 +11,14 @@ const T3 = () => {
     {
       src: "https://images.pexels.com/photos/95916/pexels-photo-95916.jpeg?auto=compress&cs=tinysrgb&w=1920",
       alt: "Collaboration on social platforms",
-      title: "Empower your team with collaboration tools.",
-      description: "Leverage powerful social media collaboration tools to streamline workflows, improve efficiency, and drive impactful outcomes for your business.",
+     title: "Unlock endless possibilities with our expert social media marketing services.",
+      description: "Discover innovative ways to expand your reach, engage your audience, and elevate your brand with our expert social media marketing services. Harness the power of social media to drive growth and success by implementing tailored strategies that connect you with your target market and create lasting impressions.",
     },
     {
       src: "https://images.pexels.com/photos/4158/apple-iphone-smartphone-desk.jpg?auto=compress&cs=tinysrgb&w=1920",
       alt: "Engaging with a vibrant audience",
-      title: "Connect with a vibrant and engaged audience.",
-      description: "Build meaningful relationships and grow your community by connecting with an engaged audience through tailored social media strategies.",
+      title: "Unlock endless possibilities with our expert social media marketing services.",
+      description: "Discover innovative ways to expand your reach, engage your audience, and elevate your brand with our expert social media marketing services. Harness the power of social media to drive growth and success by implementing tailored strategies that connect you with your target market and create lasting impressions.",
     },
   ];
 
