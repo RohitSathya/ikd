@@ -22,7 +22,7 @@ const ConsultationForm = () => {
             <Sparkles className="h-12 w-12 text-teal-500 animate-pulse" />
           </div>
           <CardTitle className="text-3xl font-bold bg-gradient-to-r from-teal-600 to-cyan-600 bg-clip-text text-transparent">
-            Get Free Digital Marketing Consultation
+            Transform your business with our award-winning digital marketing solutions. Let our experts create a customized strategy that drives results.
           </CardTitle>
           <p className="text-gray-600 max-w-3xl mx-auto">
             We'll help you plan the best digital strategy for your brand.
