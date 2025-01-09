@@ -7,57 +7,57 @@ const ChooseUs = () => {
 
   const features = [
     {
-      icon: <Clock className="w-8 h-8" />,
+      icon: <Clock />,
       title: 'We Deliver on Time',
       description: 'Time is crucial. We understand the importance of deadlines and are committed to delivering all projects on time without compromising quality.',
       color: '#60A5FA',
-      stat: '98% On-time Delivery'
+      stat: '98% On-time Delivery',
     },
     {
-      icon: <Share2 className="w-8 h-8" />,
+      icon: <Share2 />,
       title: 'Social Media Results',
       description: 'Our targeted campaigns and engaging strategies boost your brand\'s visibility, leading to tangible results and increased ROI.',
       color: '#34D399',
-      stat: '85% Engagement Rate'
+      stat: '85% Engagement Rate',
     },
     {
-      icon: <Settings className="w-8 h-8" />,
+      icon: <Settings />,
       title: 'Customized Strategies',
-      description: 'We don't believe a one-size-fits-all approach. Every client receives tailored strategies that align with their goals.',
+      description: 'We don\'t believe in a one-size-fits-all approach. Every client receives tailored strategies that align with their goals.',
       color: '#F472B6',
-      stat: '92% Client Satisfaction'
+      stat: '92% Client Satisfaction',
     },
     {
-      icon: <Headphones className="w-8 h-8" />,
+      icon: <Headphones />,
       title: 'Dedicated Support',
       description: 'Our team provides ongoing support, ensuring all your questions are answered and your campaigns are constantly improving.',
       color: '#A78BFA',
-      stat: '95% Support Response'
+      stat: '95% Support Response',
     },
     {
-      icon: <LineChart className="w-8 h-8" />,
+      icon: <LineChart />,
       title: 'Transparent Reporting',
       description: 'We offer transparent and easy-to-understand reports that let you track the progress and success of your campaigns.',
       color: '#FBBF24',
-      stat: '90% Report Clarity'
+      stat: '90% Report Clarity',
     },
     {
-      icon: <DollarSign className="w-8 h-8" />,
+      icon: <DollarSign />,
       title: 'Affordable Price',
-      description: 'Whether you're a small business or a large enterprise, our flexible packages can be customized to fit your budget.',
+      description: 'Whether you\'re a small business or a large enterprise, our flexible packages can be customized to fit your budget.',
       color: '#EC4899',
-      stat: '88% Cost Efficiency'
-    }
+      stat: '88% Cost Efficiency',
+    },
   ];
 
   return (
     <div className="min-h-screen bg-[#003366] text-white py-16 px-4 relative overflow-hidden">
       {/* Animated Background Patterns */}
-      <motion.div 
+      <motion.div
         className="absolute inset-0 opacity-20"
         initial={{ opacity: 0 }}
         animate={{ opacity: 0.2 }}
-        transition={{ duration: 2, repeat: Infinity, repeatType: "reverse" }}
+        transition={{ duration: 2, repeat: Infinity, repeatType: 'reverse' }}
       >
         <div className="absolute top-0 right-0 w-96 h-96 bg-[#75cd32] rounded-full mix-blend-multiply filter blur-3xl" />
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-[#75cd32] rounded-full mix-blend-multiply filter blur-3xl" />
@@ -65,7 +65,7 @@ const ChooseUs = () => {
 
       <div className="max-w-7xl mx-auto relative z-10">
         {/* Header Section */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           className="text-center mb-16"
@@ -93,32 +93,35 @@ const ChooseUs = () => {
                 transition={{ delay: index * 0.1 }}
                 whileHover={{ scale: 1.02 }}
                 onClick={() => setActiveFeature(index)}
-                className={`cursor-pointer group ${activeFeature === index ? 'bg-white/10' : 'hover:bg-white/5'} rounded-2xl p-6 transition-all duration-300`}
+                className={`cursor-pointer group ${
+                  activeFeature === index ? 'bg-white/10' : 'hover:bg-white/5'
+                } rounded-2xl p-6 transition-all duration-300`}
               >
                 <div className="flex items-start gap-4">
-                  <div 
+                  <div
                     className="p-3 rounded-xl"
-                    style={{ backgroundColor: `${feature.color}20` }}
+                    style={{
+                      backgroundColor: `rgba(${parseInt(feature.color.slice(1, 3), 16)}, ${parseInt(
+                        feature.color.slice(3, 5),
+                        16
+                      )}, ${parseInt(feature.color.slice(5, 7), 16)}, 0.2)`,
+                    }}
                   >
-                    {React.cloneElement(feature.icon, { 
-                      className: "w-6 h-6",
-                      style: { color: feature.color }
+                    {React.cloneElement(feature.icon, {
+                      className: 'w-6 h-6',
+                      style: { color: feature.color },
                     })}
                   </div>
                   <div className="flex-1">
                     <div className="flex items-center justify-between">
-                      <h3 className="text-xl font-semibold text-white mb-2">
-                        {feature.title}
-                      </h3>
-                      <ChevronRight 
+                      <h3 className="text-xl font-semibold text-white mb-2">{feature.title}</h3>
+                      <ChevronRight
                         className={`w-5 h-5 transform transition-transform ${
                           activeFeature === index ? 'rotate-90' : 'rotate-0'
                         }`}
                       />
                     </div>
-                    <p className="text-gray-300">
-                      {feature.description}
-                    </p>
+                    <p className="text-gray-300">{feature.description}</p>
                   </div>
                 </div>
               </motion.div>
@@ -126,14 +129,14 @@ const ChooseUs = () => {
           </div>
 
           {/* Right: Image Replacement */}
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             className="relative h-[800px] flex justify-center items-center"
           >
-            <img 
-              src="https://images.pexels.com/photos/3153198/pexels-photo-3153198.jpeg?auto=compress&cs=tinysrgb&w=1920" 
-              alt="Why Choose Us" 
+            <img
+              src="https://images.pexels.com/photos/3153198/pexels-photo-3153198.jpeg?auto=compress&cs=tinysrgb&w=1920"
+              alt="Why Choose Us"
               className="rounded-2xl shadow-lg w-full h-full object-cover"
             />
           </motion.div>
