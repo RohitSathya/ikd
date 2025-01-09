@@ -1,128 +1,38 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { AcademicCapIcon, HeartIcon, BuildingOfficeIcon, GlobeAltIcon, UserIcon, 
-  PaintBrushIcon, WrenchIcon, BanknotesIcon, BriefcaseIcon, HomeModernIcon, CameraIcon,
-  LightBulbIcon, CalendarDaysIcon } from "@heroicons/react/24/solid";
+import {
+  AcademicCapIcon,
+  CameraIcon,
+  CalendarDaysIcon,
+  HomeModernIcon,
+  GlobeAltIcon,
+  UserIcon,
+  PaintBrushIcon,
+  WrenchIcon,
+  BriefcaseIcon,
+  BuildingOfficeIcon,
+  BanknotesIcon,
+} from "@heroicons/react/24/solid";
 
 
 const IndustryExpertise = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
-  const industries = [
-    {
-      name: "Photography",
-      icon: <img 
-  src="https://cdn-icons-png.flaticon.com/512/3280/3280594.png" 
-  alt="Camera Icon" 
-  className="w-8 h-8" 
-/>,
-
-   
-      bgColor: "bg-purple-50",
-      textColor: "text-purple-600"
-    },
-    {
-      name: "Event Management",
-      icon: <img 
-  src="https://cdn-icons-png.flaticon.com/512/2037/2037690.png" 
-  alt="Camera Icon" 
-  className="w-8 h-8" 
-/>,
- 
-      bgColor: "bg-blue-50",
-      textColor: "text-yellow-600"
-    },
-    {
-      name: "Healthcare",
-       icon: <img 
-  src="https://cdn-icons-png.freepik.com/256/17247/17247494.png?semt=ais_hybrid" 
-  alt="Camera Icon" 
-  className="w-8 h-8" 
-/>,
-  
-      bgColor: "bg-red-50",
-      textColor: "text-red-600"
-    },
-    {
-      name: "Interior Design",
-      icon: <HomeModernIcon className="w-8 h-8" />,
-      description: "Innovative interior concepts",
-      bgColor: "bg-amber-50",
-      textColor: "text-amber-600"
-    },
-    {
-      name: "Immigration",
-      icon: <GlobeAltIcon className="w-8 h-8" />,
-      description: "Global immigration services",
-      bgColor: "bg-green-50",
-      textColor: "text-green-600"
-    },
-    {
-      name: "NGO",
-      icon: <UserIcon className="w-8 h-8" />,
-      description: "Non-profit organization support",
-      bgColor: "bg-teal-50",
-      textColor: "text-teal-600"
-    },
-    {
-      name: "Education",
-      icon: <AcademicCapIcon className="w-8 h-8" />,
-      description: "Educational technology solutions",
-      bgColor: "bg-cyan-50",
-      textColor: "text-cyan-600"
-    },
-    {
-      name: "Art & Decor",
-      icon: <PaintBrushIcon className="w-8 h-8" />,
-      description: "Creative art solutions",
-      bgColor: "bg-pink-50",
-      textColor: "text-pink-600"
-    },
-    {
-      name: "Manufacturing",
-      icon: <WrenchIcon className="w-8 h-8" />,
-      description: "Industrial manufacturing expertise",
-      bgColor: "bg-orange-50",
-      textColor: "text-orange-600"
-    },
-    {
-      name: "Food & Beverages",
-      icon: <img 
-  src="https://cdn-icons-png.freepik.com/256/3859/3859777.png?semt=ais_hybrid" 
-  alt="Camera Icon" 
-  className="w-8 h-8" 
-/>,
-      description: "F&B industry solutions",
-      bgColor: "bg-lime-50",
-      textColor: "text-lime-600"
-    },
-    {
-      name: "Finance",
-      icon: <BriefcaseIcon className="w-8 h-8" />,
-      description: "Financial technology services",
-      bgColor: "bg-indigo-50",
-      textColor: "text-indigo-600"
-    },
-    {
-      name: "Real Estate",
-      icon: <BuildingOfficeIcon className="w-8 h-8" />,
-      description: "Property management solutions",
-      bgColor: "bg-violet-50",
-      textColor: "text-violet-600"
-    },
-    {
-      name: "Construction",
-      icon: <img 
-  src="https://cdn-icons-png.flaticon.com/512/3752/3752626.png" 
-  alt="Camera Icon" 
-  className="w-8 h-8" 
-/>,
-      description: "Property management solutions",
-      bgColor: "bg-violet-50",
-      textColor: "text-violet-600"
-    },
-    
+ const industries = [
+    { name: "Photography", icon: <CameraIcon className="w-8 h-8" /> },
+    { name: "Event Management", icon: <CalendarDaysIcon className="w-8 h-8" /> },
+    { name: "Healthcare", icon: <UserIcon className="w-8 h-8" /> },
+    { name: "Interior Design", icon: <HomeModernIcon className="w-8 h-8" /> },
+    { name: "Immigration", icon: <GlobeAltIcon className="w-8 h-8" /> },
+    { name: "NGO", icon: <UserIcon className="w-8 h-8" /> },
+    { name: "Education", icon: <AcademicCapIcon className="w-8 h-8" /> },
+    { name: "Art & Decor", icon: <PaintBrushIcon className="w-8 h-8" /> },
+    { name: "Manufacturing", icon: <WrenchIcon className="w-8 h-8" /> },
+    { name: "Food & Beverages", icon: <BanknotesIcon className="w-8 h-8" /> },
+    { name: "Finance", icon: <BriefcaseIcon className="w-8 h-8" /> },
+    { name: "Real Estate", icon: <BuildingOfficeIcon className="w-8 h-8" /> },
+    { name: "Construction", icon: <WrenchIcon className="w-8 h-8" /> },
   ];
 
   const containerVariants = {
