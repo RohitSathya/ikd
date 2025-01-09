@@ -5,7 +5,7 @@ const Hero = () => {
 
   const slides = [
     {
-      image: 'https://i.ibb.co/f2ywrhQ/1.jpg',
+      image: 'https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg?auto=compress&cs=tinysrgb&w=1920',
       title: 'INSPIRE',
       subtitle: 'Inspiring Strategies',
     },
@@ -15,7 +15,7 @@ const Hero = () => {
       subtitle: 'Sparking Creativity',
     },
     {
-      image: 'https://i.ibb.co/wWG4kcc/3.jpg',
+      image: 'https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg?auto=compress&cs=tinysrgb&w=1920',
       title: 'DELIVER',
       subtitle: 'Delivering Results',
     },
