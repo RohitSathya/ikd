@@ -25,9 +25,12 @@ const T1 = () => {
         {/* Right Side - About Us Content */}
         <div className="space-y-8">
           {/* Main Heading */}
-          <h1 className="text-6xl font-extrabold bg-gradient-to-r from-blue-600 to-purple-600 text-transparent bg-clip-text leading-tight">
-            Best Digital Marketing Agency in Delhi
-          </h1>
+          <h1 className="text-6xl font-extrabold leading-tight">
+  <span className="text-[#003366]">BEST </span>
+  <span className="text-[#75cd32]">DIGITAL MARKETING AGENCY</span>
+  <span className="text-[#003366]"> IN DELHI</span>
+</h1>
+
 
           {/* Subheading */}
          
@@ -53,11 +56,7 @@ const T1 = () => {
           </div>
 
           {/* Call to Action Button */}
-          <div className="pt-4">
-{/*             <button className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white px-10 py-4 rounded-lg shadow-lg hover:from-purple-600 hover:to-pink-600 transition-all duration-300 text-lg font-semibold">
-              CONNECT WITH US TODAY
-            </button> */}
-          </div>
+          
         </div>
       </div>
     </div>
