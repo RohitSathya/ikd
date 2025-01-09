@@ -16,7 +16,7 @@ const IndustryExpertise = () => {
   src="https://cdn-icons-png.flaticon.com/512/3280/3280594.png" 
   alt="Camera Icon" 
   className="w-8 h-8" 
-/>
+/>,
 
       description: "Professional photography solutions",
       bgColor: "bg-purple-50",
@@ -24,7 +24,11 @@ const IndustryExpertise = () => {
     },
     {
       name: "Event Management",
-      icon: <CalendarDaysIcon className="w-8 h-8" />,
+      icon: <img 
+  src="https://cdn-icons-png.flaticon.com/512/2037/2037690.png" 
+  alt="Camera Icon" 
+  className="w-8 h-8" 
+/>,
       description: "Complete event planning services",
       bgColor: "bg-blue-50",
       textColor: "text-yellow-600"
