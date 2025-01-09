@@ -44,7 +44,7 @@ const T1 = () => {
           <div className="bg-gray-100 p-6 rounded-lg shadow-md">
             <h3 className="text-2xl font-semibold text-gray-800 mb-3">Looking for a digital marketing agency near me?</h3>
             <p className="text-gray-700 leading-relaxed">
-              We're right here in Delhi, offering end-to-end solutions, including SEO, PPC, content marketing, and social media management. As the <span className="font-bold text-blue-600">Best Social Media Agency in Delhi</span>, we specialize in building your online presence and connecting you with your audience.
+              We're right here in Delhi, offering end-to-end solutions, including SEO, PPC, content marketing, and social media management. As the <span className="font-bold text-[#75cd32]">Best Social Media Agency in Delhi</span>, we specialize in building your online presence and connecting you with your audience.
             </p>
           </div>
 
