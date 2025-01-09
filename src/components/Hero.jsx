@@ -4,7 +4,7 @@
 //   const [currentSlide, setCurrentSlide] = useState(0);
 
 //   const slides = [
-//     'https://images.pexels.com/photos/6476588/pexels-photo-6476588.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1080&w=1920',
+//     'https://i.ibb.co/f2ywrhQ/1.jpg',
 //     'https://images.pexels.com/photos/3183132/pexels-photo-3183132.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1080&w=1920',
 //     'https://images.pexels.com/photos/4158/apple-iphone-smartphone-desk.jpg?auto=compress&cs=tinysrgb&dpr=2&h=1080&w=1920'
 //   ];
