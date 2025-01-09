@@ -54,9 +54,9 @@ const T1 = () => {
 
           {/* Call to Action Button */}
           <div className="pt-4">
-            <button className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white px-10 py-4 rounded-lg shadow-lg hover:from-purple-600 hover:to-pink-600 transition-all duration-300 text-lg font-semibold">
+{/*             <button className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white px-10 py-4 rounded-lg shadow-lg hover:from-purple-600 hover:to-pink-600 transition-all duration-300 text-lg font-semibold">
               CONNECT WITH US TODAY
-            </button>
+            </button> */}
           </div>
         </div>
       </div>
