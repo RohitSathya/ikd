@@ -118,17 +118,17 @@ const Hero = () => {
 
   const slides = [
     {
-      image: 'https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg?auto=compress&cs=tinysrgb&w=1920',
+      image: 'https://i.ibb.co/f2ywrhQ/1.jpg',
       title: 'INSPIRE',
       subtitle: 'Inspiring Strategies',
     },
     {
-      image: 'https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=1920',
+      image: 'https://i.ibb.co/yVCqnNZ/2.jpg',
       title: 'KINDLE',
       subtitle: 'Sparking Creativity',
     },
     {
-      image: 'https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg?auto=compress&cs=tinysrgb&w=1920',
+      image: 'https://i.ibb.co/wWG4kcc/3.jpg',
       title: 'DELIVER',
       subtitle: 'Delivering Results',
     },
