@@ -42,11 +42,13 @@ const Hero = () => {
           >
             <img
               src={slide.image}
-              srcSet={`${slide.image} 1x, ${slide.image.replace('.jpg', '@2x.jpg')} 2x`}
+              srcSet={`${slide.image} 480w, ${slide.image.replace('.jpg', '@2x.jpg')} 1024w, ${slide.image.replace('.jpg', '@3x.jpg')} 1920w`}
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               alt={slide.title}
               className="w-full h-full object-cover"
               loading="lazy"
               style={{
+                objectPosition: 'center',
                 imageRendering: 'auto',
               }}
             />
@@ -61,10 +63,10 @@ const Hero = () => {
         {slides.map((slide, index) =>
           currentSlide === index ? (
             <div key={index} className="space-y-6">
-              <h1 className="text-5xl md:text-7xl font-extrabold text-white">
+              <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold text-white">
                 {slide.title}
               </h1>
-              <p className="text-lg md:text-3xl text-white">
+              <p className="text-base sm:text-lg md:text-3xl text-white">
                 {slide.subtitle}
               </p>
             </div>
@@ -73,11 +75,11 @@ const Hero = () => {
       </div>
 
       {/* Slider Indicators */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex gap-3">
+      <div className="absolute bottom-4 sm:bottom-8 left-1/2 transform -translate-x-1/2 flex gap-3">
         {slides.map((_, index) => (
           <button
             key={index}
-            className={`w-3 h-3 rounded-full transition-colors duration-200 shadow-lg ${
+            className={`w-3 h-3 sm:w-4 sm:h-4 rounded-full transition-colors duration-200 shadow-lg ${
               currentSlide === index ? 'bg-blue-500' : 'bg-white bg-opacity-50'
             }`}
             onClick={() => setCurrentSlide(index)}
