@@ -109,7 +109,11 @@ const IndustryExpertise = () => {
     },
     {
       name: "Construction",
-      icon: <LightBulbIcon className="w-8 h-8" />,
+      icon: <img 
+  src="https://cdn-icons-png.flaticon.com/512/3752/3752626.png" 
+  alt="Camera Icon" 
+  className="w-8 h-8" 
+/>,
       description: "Property management solutions",
       bgColor: "bg-violet-50",
       textColor: "text-violet-600"
