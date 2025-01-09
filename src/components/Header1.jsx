@@ -32,12 +32,13 @@ const Header1 = () => {
         <div className="flex justify-between items-center h-24 sm:h-28 overflow-x-hidden">
           {/* Logo Section */}
           <div className="flex-shrink-0">
-           <img
+          <img
   src="https://i.postimg.cc/L87Zm2xB/ikd-2-removebg-preview.png"
   alt="Buzzbiz Logo"
   onClick={() => navigate('/')}
-  className="h-28 sm:h-32 md:h-36 lg:h-40 w-auto cursor-pointer transition-transform duration-200"
+  className="h-16 sm:h-20 md:h-24 lg:h-28 max-h-[10vh] w-auto cursor-pointer transition-transform duration-200"
 />
+
 
 
           </div>
