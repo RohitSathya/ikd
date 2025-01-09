@@ -50,11 +50,7 @@ const TeamSlider = () => {
                     alt={member.name}
                     className="w-40 h-40 object-cover rounded-full shadow-lg border-4 border-blue-600"
                   />
-                  <div className="absolute -bottom-6">
-                    <div className="bg-blue-600 p-3 rounded-full shadow-lg">
-                      {member.icon}
-                    </div>
-                  </div>
+                
                 </div>
 
                 {/* Member Details */}
