@@ -51,7 +51,7 @@ const ChooseUs = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-900 text-white py-16 px-4 relative overflow-hidden">
+    <div className="min-h-screen bg-[#003366] text-white py-16 px-4 relative overflow-hidden">
       {/* Animated Background Patterns */}
       <motion.div 
         className="absolute inset-0 opacity-20"
@@ -59,8 +59,8 @@ const ChooseUs = () => {
         animate={{ opacity: 0.2 }}
         transition={{ duration: 2, repeat: Infinity, repeatType: "reverse" }}
       >
-        <div className="absolute top-0 right-0 w-96 h-96 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl" />
-        <div className="absolute bottom-0 left-0 w-96 h-96 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl" />
+        <div className="absolute top-0 right-0 w-96 h-96 bg-[#75cd32] rounded-full mix-blend-multiply filter blur-3xl" />
+        <div className="absolute bottom-0 left-0 w-96 h-96 bg-[#75cd32] rounded-full mix-blend-multiply filter blur-3xl" />
       </motion.div>
 
       <div className="max-w-7xl mx-auto relative z-10">
@@ -70,14 +70,14 @@ const ChooseUs = () => {
           animate={{ opacity: 1, y: 0 }}
           className="text-center mb-16"
         >
-          <span className="inline-block px-4 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm font-medium mb-4">
+          <span className="inline-block px-4 py-1 bg-[#75cd32] text-white rounded-full text-sm font-medium mb-4">
             WHY CHOOSE US
           </span>
-          <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent pb-4">
-          Top Digital Marketing Company in Delhi
+          <h2 className="text-5xl md:text-6xl font-bold text-white pb-4">
+            Top Digital Marketing Company in Delhi
           </h2>
-          <p className="text-gray-400 text-xl max-w-3xl mx-auto">
-          We focus on providing exceptional results through personalized services. Here's why Inspire Strategies stands out.
+          <p className="text-white text-xl max-w-3xl mx-auto">
+            We focus on providing exceptional results through personalized services. Here's why Inspire Strategies stands out.
           </p>
         </motion.div>
 
@@ -116,7 +116,7 @@ const ChooseUs = () => {
                         }`}
                       />
                     </div>
-                    <p className="text-gray-400">
+                    <p className="text-gray-300">
                       {feature.description}
                     </p>
                   </div>
