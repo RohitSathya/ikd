@@ -9,31 +9,34 @@ import {
   GlobeAltIcon,
   UserIcon,
   PaintBrushIcon,
-  WrenchIcon,
+  WrenchScrewdriverIcon,
   BriefcaseIcon,
   BuildingOfficeIcon,
   BanknotesIcon,
+  HeartIcon,
+  LightBulbIcon,
 } from "@heroicons/react/24/solid";
 
 
 const IndustryExpertise = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
- const industries = [
+const industries = [
     { name: "Photography", icon: <CameraIcon className="w-8 h-8" /> },
     { name: "Event Management", icon: <CalendarDaysIcon className="w-8 h-8" /> },
-    { name: "Healthcare", icon: <UserIcon className="w-8 h-8" /> },
+    { name: "Healthcare", icon: <HeartIcon className="w-8 h-8" /> },
     { name: "Interior Design", icon: <HomeModernIcon className="w-8 h-8" /> },
     { name: "Immigration", icon: <GlobeAltIcon className="w-8 h-8" /> },
-    { name: "NGO", icon: <UserIcon className="w-8 h-8" /> },
+    { name: "NGO", icon: <LightBulbIcon className="w-8 h-8" /> },
     { name: "Education", icon: <AcademicCapIcon className="w-8 h-8" /> },
     { name: "Art & Decor", icon: <PaintBrushIcon className="w-8 h-8" /> },
-    { name: "Manufacturing", icon: <WrenchIcon className="w-8 h-8" /> },
+    { name: "Manufacturing", icon: <WrenchScrewdriverIcon className="w-8 h-8" /> },
     { name: "Food & Beverages", icon: <BanknotesIcon className="w-8 h-8" /> },
     { name: "Finance", icon: <BriefcaseIcon className="w-8 h-8" /> },
     { name: "Real Estate", icon: <BuildingOfficeIcon className="w-8 h-8" /> },
-    { name: "Construction", icon: <WrenchIcon className="w-8 h-8" /> },
+    { name: "Construction", icon: <WrenchScrewdriverIcon className="w-8 h-8 rotate-45" /> },
   ];
+
 
   const containerVariants = {
     hidden: { opacity: 0 },
