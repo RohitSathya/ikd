@@ -46,7 +46,8 @@ const LatestBlog = () => {
   }, []);
 
   return (
-    <div className="bg-gradient-to-br from-green-50 via-black to-green-100 bg-opacity-50 py-20 px-6">
+   <div className="bg-gradient-to-br from-[#003366] via-[#002244] to-[#001122] bg-opacity-50 py-20 px-6">
+
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
