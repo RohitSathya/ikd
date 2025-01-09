@@ -12,7 +12,12 @@ const IndustryExpertise = () => {
   const industries = [
     {
       name: "Photography",
-      icon: <CameraIcon className='w-8 h-8'/>,
+      icon: <img 
+  src="https://cdn-icons-png.flaticon.com/512/3280/3280594.png" 
+  alt="Camera Icon" 
+  className="w-8 h-8" 
+/>
+
       description: "Professional photography solutions",
       bgColor: "bg-purple-50",
       textColor: "text-purple-600"
