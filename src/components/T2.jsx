@@ -35,7 +35,11 @@ const IndustryExpertise = () => {
     },
     {
       name: "Healthcare",
-      icon: <HeartIcon className="w-8 h-8" />,
+       icon: <img 
+  src="https://cdn-icons-png.freepik.com/256/17247/17247494.png?semt=ais_hybrid" 
+  alt="Camera Icon" 
+  className="w-8 h-8" 
+/>,
       description: "Modern healthcare solutions",
       bgColor: "bg-red-50",
       textColor: "text-red-600"
