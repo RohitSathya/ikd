@@ -67,7 +67,7 @@ const T3 = () => {
           </p>
 
           {/* Button */}
-          <button className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-10 py-4 rounded-lg shadow-lg hover:shadow-xl hover:from-blue-600 hover:to-purple-700 transition-all duration-300 text-lg font-semibold">
+          <button className="bg-gradient-to-r from-lime-500 to-[#75cd32] text-white px-10 py-4 rounded-lg shadow-lg hover:shadow-xl hover:from-lime-600 hover:to-green-700 transition-all duration-300 text-lg font-semibold">
             DISCOVER MORE
           </button>
         </div>
