@@ -33,11 +33,12 @@ const Header1 = () => {
           {/* Logo Section */}
           <div className="flex-shrink-0">
             <img
-              src="https://i.postimg.cc/L87Zm2xB/ikd-2-removebg-preview.png"
-              alt="Buzzbiz Logo"
-              onClick={() => navigate('/')}
-              className="h-20 sm:h-24 md:h-28 lg:h-32 w-auto cursor-pointer transition-transform duration-200"
-            />
+  src="https://i.postimg.cc/L87Zm2xB/ikd-2-removebg-preview.png"
+  alt="Buzzbiz Logo"
+  onClick={() => navigate('/')}
+  className="h-[7rem] w-auto cursor-pointer transition-transform duration-200"
+/>
+
           </div>
 
           {/* Desktop Navigation */}
