@@ -19,10 +19,10 @@ const IndustryExpertise = () => {
     },
     {
       name: "Event Management",
-      icon: <CalendarDaysIcon className="w-8 h-8 no-underline" />,
+      icon: <CalendarDaysIcon className="w-8 h-8" />,
       description: "Complete event planning services",
       bgColor: "bg-blue-50",
-      textColor: "text-blue-600"
+      textColor: "text-yellow-600"
     },
     {
       name: "Healthcare",
