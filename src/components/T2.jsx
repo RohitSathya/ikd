@@ -88,7 +88,11 @@ const IndustryExpertise = () => {
     },
     {
       name: "Food & Beverages",
-      icon: <BanknotesIcon className="w-8 h-8" />,
+      icon: <img 
+  src="https://cdn-icons-png.freepik.com/256/3859/3859777.png?semt=ais_hybrid" 
+  alt="Camera Icon" 
+  className="w-8 h-8" 
+/>,
       description: "F&B industry solutions",
       bgColor: "bg-lime-50",
       textColor: "text-lime-600"
