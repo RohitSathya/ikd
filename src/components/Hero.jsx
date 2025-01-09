@@ -176,14 +176,7 @@ const Hero = () => {
               <p className="text-lg md:text-3xl text-white">
                 {slide.subtitle}
               </p>
-              <div className="flex flex-col sm:flex-row justify-center gap-4 mt-8">
-                <button className="bg-blue-600 text-white px-8 py-4 rounded-lg shadow-lg hover:bg-blue-700 transition-colors duration-200 text-lg font-semibold">
-                  Learn More
-                </button>
-                <button className="border-2 border-white text-white px-8 py-4 rounded-lg shadow-lg hover:bg-white hover:text-black transition-colors duration-200 text-lg font-semibold">
-                  Get Started
-                </button>
-              </div>
+             
             </div>
           ) : null
         )}
