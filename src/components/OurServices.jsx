@@ -6,45 +6,49 @@ const OurServices = () => {
     {
       icon: <Search className="w-8 h-8 text-blue-600" />,
       title: 'SMO',
-      description: 'We are experts in Social Media Optimization (SMO), delivering engaging content that resonates with your followers. Our strategies increase shares, likes, and interactions, leading to a broader reach and more engaged social media users, helping your brand achieve significant growth.',
+      description:
+        'We are experts in Social Media Optimization (SMO), delivering engaging content that resonates with your followers. Our strategies increase shares, likes, and interactions, leading to a broader reach and more engaged social media users, helping your brand achieve significant growth.',
     },
     {
       icon: <Share className="w-8 h-8 text-blue-600" />,
       title: 'SEO',
-      description: 'Our digital marketing agency specializes in SEO, using innovative techniques to skyrocket your website’s Google rankings. By identifying the best keywords for your niche, we drive targeted, organic traffic to your site, boosting visibility and ensuring your brand stands out. Let us help you achieve long-term SEO success.',
+      description:
+        'Our digital marketing agency specializes in SEO, using innovative techniques to skyrocket your website’s Google rankings. By identifying the best keywords for your niche, we drive targeted, organic traffic to your site, boosting visibility and ensuring your brand stands out. Let us help you achieve long-term SEO success.',
     },
     {
       icon: <DollarSign className="w-8 h-8 text-blue-600" />,
       title: 'PPC',
-      description: 'PPC advertising is one of the fastest ways to generate traffic and leads. we focus on maximizing your ad spend and ensuring the best possible ROI, driving qualified traffic and boosting conversions on platforms like Facebook Ads and Google Ads.',
+      description:
+        'PPC advertising is one of the fastest ways to generate traffic and leads. we focus on maximizing your ad spend and ensuring the best possible ROI, driving qualified traffic and boosting conversions on platforms like Facebook Ads and Google Ads.',
     },
     {
       icon: <Users className="w-8 h-8 text-blue-600" />,
       title: 'SMM',
-      description: 'Our SMM services focus on crafting engaging content that resonates with your audience. As the Best Social Media Agency in Delhi, we help you grow your brand’s online presence by driving targeted engagement and boosting visibility across social media platforms like Facebook, Instagram, and LinkedIn for maximum results.',
+      description:
+        'Our SMM services focus on crafting engaging content that resonates with your audience. As the Best Social Media Agency in Delhi, we help you grow your brand’s online presence by driving targeted engagement and boosting visibility across social media platforms like Facebook, Instagram, and LinkedIn for maximum results.',
     },
     {
       icon: <ShieldCheck className="w-8 h-8 text-blue-600" />,
       title: 'ORM',
-      description: 'Our ORM (Online Reputation Management) services help protect and enhance your brand’s online image. As a leading digital marketing agency in Delhi, we monitor reviews, address negative feedback, and promote positive interactions, ensuring your brand maintains a trustworthy and credible reputation across digital platforms, driving consumer trust and loyalty.',
+      description:
+        'Our ORM (Online Reputation Management) services help protect and enhance your brand’s online image. As a leading digital marketing agency in Delhi, we monitor reviews, address negative feedback, and promote positive interactions, ensuring your brand maintains a trustworthy and credible reputation across digital platforms, driving consumer trust and loyalty.',
     },
     {
       icon: <FileText className="w-8 h-8 text-blue-600" />,
       title: 'Content Marketing',
-      description: 'Our content marketing services focus on creating high-quality, engaging content that resonates with your audience. As a digital marketing agency in Delhi, we craft compelling blogs, videos, and infographics that build brand authority, drive organic traffic, and enhance engagement, ensuring your brand stands out in the digital space.',
+      description:
+        'Our content marketing services focus on creating high-quality, engaging content that resonates with your audience. As a digital marketing agency in Delhi, we craft compelling blogs, videos, and infographics that build brand authority, drive organic traffic, and enhance engagement, ensuring your brand stands out in the digital space.',
     },
-    
-    
   ];
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 relative">
       {/* Header Section */}
       <div className="text-center mb-12">
-        <span className="text-blue-600 font-semibold text-lg uppercase tracking-wide mb-4 block">
+        <span className="bg-[#75cd32] text-white text-sm font-medium px-6 py-2 rounded-full">
           Our Services
         </span>
-        <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight">
+        <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight mt-6">
           The Services We Provide in Digital Marketing
         </h2>
       </div>
@@ -81,6 +85,9 @@ const OurServices = () => {
           </div>
         ))}
       </div>
+
+      {/* Add Space Below */}
+      <div className="mt-16" />
 
       {/* Decorative Elements */}
       <div className="absolute top-10 right-10 w-40 h-40 bg-blue-100 rounded-full -z-10 opacity-30 animate-pulse" />
