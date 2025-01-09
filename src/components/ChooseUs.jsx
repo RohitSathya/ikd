@@ -23,7 +23,7 @@ const ChooseUs = () => {
     {
       icon: <Settings className="w-8 h-8" />,
       title: 'Customized Strategies',
-      description: 'We don\'t believe in a one-size-fits-all approach. Every client receives tailored strategies that align with their goals.',
+      description: 'We don't believe in a one-size-fits-all approach. Every client receives tailored strategies that align with their goals.',
       color: '#F472B6',
       stat: '92% Client Satisfaction'
     },
